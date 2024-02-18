@@ -1,8 +1,13 @@
 body {
-    background: lightgray;
+    background: black;
 }
 
-.red {
-    color: red;
+.white {
+    color: white;
 }
-    
+
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
