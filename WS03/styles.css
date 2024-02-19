@@ -6,12 +6,31 @@ body {
     color: white;
 }
 
+.green {
+    color: green;
+}
+
 .myDiv {
-    border: 5px outset red;
-    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    border: 2px dotted red;
+    background-color: black;
     text-align: center;
 }
 
-h1 {font-size: x-large;
+.myDiv2 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted red;
+    background-color: black;
+    text-align: center;
+}
 
+h1 {
+    font-size: x-large;
+
+}
+
+p  {
+    font-size: small;
 }
