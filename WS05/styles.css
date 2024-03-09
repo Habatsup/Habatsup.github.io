@@ -55,3 +55,10 @@ aside {
     height: 430px;
     padding: 1em;
 }
+aside 2 {
+    float: right;
+    width: 25%;
+    color: white;
+    height: 430px;
+    padding: 1em;
+}
