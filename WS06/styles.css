@@ -1,0 +1,57 @@
+body {
+    background-color: skyblue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    background-color: darkcyan;
+    border-radius: 20px;
+    padding: 5px 10px 15px 20px;
+    margin: 5px 10px 15px 20px;
+ }
+
+.wrapper {
+    display:flex;
+}
+
+.wrapper >div {
+    flex:1;
+    text-align: center;
+}
+
+header,footer {
+    background-color: darkcyan;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    clear:left;
+}
+
+nav {
+    background-color: bisque;
+    padding: 1em;
+}
+section {
+    float:left;
+    width: 65%;
+    color: white;
+    height: 230px;
+}
+article {
+    float: left;
+    width: 65%;
+    color: white;
+    height: 230px;
+    padding: 1em;
+}
+aside {
+    float: right;
+    width: 25%;
+    color: white;
+    height: 430px;
+    padding: 1em;
+}
