@@ -1,3 +1,7 @@
+body {
+    background-image: lightblue;
+  }
+
 header,footer {
     background-color: blue;
     color: white;
@@ -6,7 +10,13 @@ header,footer {
     font-size: 30px;
     font-weight: bold;
     clear:left;
+}
 
+p {
+   background-color: aquamarine;
+   border-radius: 20px;
+   padding: 5px 10px 15px 20px;
+   margin: 5px 10px 15px 20px;
 }
 
 nav {
@@ -27,7 +37,6 @@ section {
     width: 65%;
     color: blue;
     height: 230px;
-    padding: 1e,;
 }
 
 aside {
@@ -44,4 +53,10 @@ article {
     color: blue;
     height: 230px;
     padding: 1em;
+}
+
+.myDiv {
+    border: 2px dotted rgb(4, 0, 255);
+    background-color: white;
+    text-align: center;
 }
