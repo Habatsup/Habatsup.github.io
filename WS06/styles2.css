@@ -5,7 +5,7 @@ body {
     margin-right: auto;
   }
 
-  p {
+p {
     background-color: darkcyan;
     border-radius: 20px;
     padding: 5px 10px 15px 20px;
@@ -37,22 +37,38 @@ nav {
 }
 section {
     float:left;
-    width: 65%;
+    width: 45%;
     color: white;
     height: 230px;
     padding: 1em;
+    clear: right;
 }
 article {
-    float: left;
-    width: 65%;
+    float: right;
+    width: 45%;
     color: white;
     height: 230px;
     padding: 1em;
 }
-aside {
-    float: right;
-    width: 25%;
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 85px;
+    background-color: bisque;
+  }
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
     color: white;
-    height: 1000px;
-    padding: 1em;
 }
