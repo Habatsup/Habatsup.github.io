@@ -57,7 +57,7 @@ aside {
     padding: 1em;
 }
 ul {
-    float: left;
+    float: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
