@@ -56,7 +56,7 @@ aside {
     height: 1000px;
     padding: 1em;
 }
-/* Change the link color on hover */
+
 .myDiv a:hover {
     background-color: red;
     color: white;
