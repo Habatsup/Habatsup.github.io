@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML taulukot ja lomakkeet</title>
+    <link rel="stylesheet" href="styletable.css">
+</head>
+<body>
+    <h1>HTML Taulukot ja lomakkeet</h1>
+
+    <h2>HTML Taulukot</h2>
+    <caption>Nimi ja ikä taulukko</caption>
+    <table>
+        <tr>
+            <th colspan="2">Etunimi ja sukunimi</th>
+            <th> Ikä</th>
+        </tr>
+        <tr>
+            <td>Jorma</td>
+            <td>Kilponen</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Matti</td>
+            <td>Jalkanen</td>
+            <td>37</td>
+        </tr>
+        <tr>
+            <td>Liisa</td>
+            <td>Ihmemaa</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>Jouko</td>
+            <td>Aladdin</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>Jaakko</td>
+            <td>Lindgren</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h2>HTML lomakkeet</h2>
+
+    <caption>Nimen tallennus</caption>
+    <form action="#">
+        <label for="etunimi">Etunimi</label><br>
+        <input type="text" id="etunimi" name="etunimi"><br>
+        <label for="sukunimi">Sukunimi:</label><br>
+        <input type="text" id="sukunimi" name="sukunimi"><br>
+        <label for="ikä">Ikä</label><br>
+        <input type="number" id="ikä" min="1" max="5"><br><br>
+        <input type="submit" value="Tallenna">
+    </form>
+
+    <br><br>
+    <input type="Date">
+</body>
+</html>
