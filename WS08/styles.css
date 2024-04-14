@@ -9,13 +9,13 @@ h1 {
 h3 {
     background-color: white;
     border: 2pc
+    padding: 4px;
+    border-radius: 10px;
 }
 
-a {
 
-}
 
-.container1 {
+container1 {
     padding: 8px;
     margin: 55px;
     background-color:rgb(43, 91, 180);
@@ -23,13 +23,13 @@ a {
     text-align: center;
 }
 
-.container2 {
+container2 {
     padding: 8px;
     margin: 55px;
-    background-color:rgb(43, 91, 180);
     border-radius: 10px;
     font-family: Arial;
     color: rgb(43, 91, 180);
+    background-color:rgb(43, 91, 180);
 }
 
 .container3 {
@@ -56,9 +56,8 @@ header ul {
         width: 0px;
         height: 0px;
         background-color: rgb(43, 91, 180);
-
-
 }
+
 header li a {
     display: block;
     color: white;
@@ -68,4 +67,36 @@ header li a {
 header li a:hover {
     background-color: rgb(43, 91, 180);
     color: white;
+}
+
+.col-sm-3half, .col-sm-8half {
+    position: relative;
+    min-height: 1px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(43, 91, 180);
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-3half, .col-sm-8half {
+        float: left;
+        text-align: center;
+    }
+    .col-sm-3half {
+        width: 18%;
+    }
+    .col-sm-8half {
+        width: 50%;
+    }
+}
+
+.col-sm-11 {
+    width: 70%;
+    position: relative;
+    min-height: 1px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(43, 91, 180);
+    margin: 10px;
 }
