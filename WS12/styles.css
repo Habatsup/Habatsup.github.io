@@ -2,45 +2,6 @@ header, footer {
     background-color: rgb(43, 91, 180);
 }
 
-h1 {
-    color: rgb(43, 91, 180);
-}
-
-h3 {
-    background-color: white;
-    border: 2pc
-    padding: 4px;
-    border-radius: 10px;
-}
-
-
-
-container1 {
-    padding: 8px;
-    margin: 55px;
-    background-color:rgb(43, 91, 180);
-    border-radius: 10px;
-    text-align: center;
-}
-
-container2 {
-    padding: 8px;
-    margin: 55px;
-    border-radius: 10px;
-    font-family: Arial;
-    color: rgb(43, 91, 180);
-    background-color:rgb(43, 91, 180);
-}
-
-.container3 {
-    padding: 8px;
-    margin: 55px;
-    background-color:rgb(43, 91, 180);
-    border-radius: 10px;
-    font-family: Arial;
-    color: white
-}
-
 .page-header {
     padding: 5px;
     margin: 5px;
@@ -58,9 +19,9 @@ header ul {
         background-color: rgb(43, 91, 180);
 }
 
+
 header li a {
     display: block;
-    color: white;
     text-decoration: none;
 }
 
@@ -69,7 +30,63 @@ header li a:hover {
     color: white;
 }
 
-.col-sm-3half, .col-sm-8half {
+h1 {
+    color: rgb(43, 91, 180);
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 5px solid rgb(43, 91, 180);
+}
+
+.button1:hover {
+  background-color: blue;
+  color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+h3 {
+    background-color: white;
+    color: black;
+    border: 2pc
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.col-sm-3half {
+    min-height: 1px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(9, 45, 110);
+    margin: 10px;
+}
+
+.col-sm-8half {
     position: relative;
     min-height: 1px;
     padding: 4px;
@@ -87,7 +104,7 @@ header li a:hover {
         width: 18%;
     }
     .col-sm-8half {
-        width: 50%;
+        width: 51%;
     }
 }
 
@@ -99,4 +116,41 @@ header li a:hover {
     border-radius: 10px;
     background-color: rgb(43, 91, 180);
     margin: 10px;
+}
+
+.col-sm-10 {
+    width: 70%;
+    position: relative;
+    min-height: 1px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(43, 91, 180);
+    margin: 10px;
+}
+
+.container3 {
+    padding: 8px;
+    margin: 55px;
+    background-color:rgb(43, 91, 180);
+    border-radius: 10px;
+    font-family: Arial;
+    color: white
+}
+
+
+container1 {
+    padding: 8px;
+    margin: 55px;
+    background-color:rgb(43, 91, 180);
+    border-radius: 10px;
+    text-align: center;
+}
+
+container2 {
+    padding: 8px;
+    margin: 55px;
+    border-radius: 10px;
+    font-family: Arial;
+    color: rgb(43, 91, 180);
+    background-color:rgb(43, 91, 180);
 }
