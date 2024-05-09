@@ -41,6 +41,8 @@ body {
 navbar-toggler {
     outline: none !important
 }
+
+
 /*--------------------1 HOME section-----------------*/
 #banner {
     background-image: linear-gradient(to right, #90acfa, #220b85);
