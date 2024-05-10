@@ -7,7 +7,15 @@
 body {
     font-family: sans-serif;   
 }
+/*--------- carousel------------*/
 
+.carousel1 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+/*---------Navigate------------*/
 #nav-bar {
     position: sticky;
     top:0;
@@ -38,39 +46,36 @@ body {
     font-size: 30px !important;
 
 }
-navbar-toggler {
+.navbar-toggler {
     outline: none !important
 }
 
 
-/*--------------------1 HOME section-----------------*/
-#banner {
+/*--------------------1 HOME page-----------------*/
+#home {
     background-image: linear-gradient(to right, #90acfa, #220b85);
     color: white;
     padding-top: 5% ;
 }
 
-.promo-title {
+.home-title {
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
 
 }
-#banner a {
+#home a {
     color: white;
     text-decoration: none;
 }
 
-.middle-img {
-    width: 100%;
 
-}
 
 .bottom-img {
     width: 100%;
 
 }
-/*------------------------ 2 Profile Section---------------------------------*/
+/*------------------------ 2 Profile page---------------------------------*/
 #profile {
     padding: 80px 0;
 }
@@ -119,8 +124,11 @@ navbar-toggler {
     color: white;
 }
 
+.middle-img {
+    width: 100%;
+}
 
-/*------------------------ 3 Traingin Section---------------------------------*/
+/*------------------------ 3 Traingin page---------------------------------*/
 #training {
     padding: 80px 0;
 }
@@ -148,7 +156,7 @@ navbar-toggler {
     background-image: linear-gradient(to right, #90acfa, #220b85);
     color: white;
 }
-/*---------------------------4 services section-------------------------------------*/
+/*---------------------------4 services page-------------------------------------*/
 #services{
     background-color: white;
     padding-bottom: 50px;
@@ -179,7 +187,11 @@ navbar-toggler {
     color: white;
 }
 
-/*---------------------------5 Contact Us Section-------------------------------------*/
+.center-img {
+    width: 100%;
+}
+
+/*----------5 Make connect page----------------*/
 
 #Contact-me {
     background: white;
@@ -199,7 +211,7 @@ navbar-toggler {
 
 }
 
-/*---------------------------6 footer Section-------------------------------------*/
+/*---------------6 footer Section---------------------------*/
 
 #footer {
     background-image: linear-gradient(to right, #90acfa, #220b85);
