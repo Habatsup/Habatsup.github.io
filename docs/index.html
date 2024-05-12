@@ -3,57 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assigment 6B</title>
+    <title>12 - Create a Website: Omat sivut</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b469fa3d0c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-            <div>
-                <h1> Arnolds's website</h1>
-            </div>
-    </header>
-    
-    <nav>
-        <div class="wrapper">
-            <div class="myDiv">
-                <a href="index.html">Home</a>
-            </div>
-            <div class="myDiv">
-                <a href="second.html">Bird photos</a>
-            </div>
-            <div class="myDiv">
-                <a href="third.html">Movies</a>
-            </div>
 
+<!--Carousel1-->
+
+    <div id="carousel1">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+        <img src="tietokone.jpg" class="d-block w-100" alt="computer">
+      </div>
+      <div class="carousel-item">
+        <img src="Technology2.webp" class="d-block w-100" alt="Technology2">
+      </div>
+      <div class="carousel-item">
+        <img src="security-265130_960_720.jpg" class="d-block w-100" alt="protect">
+      </div>
         </div>
-    </nav>
-    <div>
-        <progress value="35" max="100"></progress>
+      </div>
     </div>
 
-    <section>
-            <h2>My History</h2>
-            <p>Arnold Alois Schwarzenegger (born July 30, 1947) is an Austrian and American actor, businessman, filmmaker, former politician, and former professional bodybuilder known for his roles in high-profile action movies. He served as the 38th governor of California from 2003 to 2011 and was among Time's 100 most influential people in the world in 2004 and 2007.</p>
-    </section>
+<!---navigating-->
 
-    <aside>
-        <h4>Politics</h4>
-        <p>As a registered Republican, Schwarzenegger chaired the President's Council on Physical Fitness and Sports during most of the George H. W. Bush administration. On October 7, 2003, he was elected Governor of California in a special recall election to replace then-Governor Gray Davis. He received 48.6% of the vote, 17 points ahead of Democrat runner-up Cruz Bustamante. He was sworn in on November 17 to serve the remainder of Davis' term, and was reelected in the 2006 California gubernatorial election with an increased vote share of 55.9% to serve a full term. In 2011 he reached his term limit as governor and returned to acting.</p>
-        <h4>After retiring</h4>
-        <p>After retiring from bodybuilding, he gained worldwide fame as a Hollywood action star, with his breakthrough in the sword and sorcery epic Conan the Barbarian (1982), a box-office hit with a sequel in 1984. After playing the title character in the science fiction film The Terminator (1984), he starred in Terminator 2: Judgment Day (1991) and three other sequels. His other successful action films included Commando (1985), The Running Man (1987), Predator (1987), Total Recall (1990), and True Lies (1994), in addition to comedy films such as Twins (1988), Kindergarten Cop (1990) and Jingle All the Way (1996).[13] He is the founder of the film production company Oak Productions.</p>
-    </aside>
+<div id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="kuva3.png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home"><i class="fa-solid fa-house"></i> HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#profile"><i class="fa-solid fa-fingerprint"></i> PROFILE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#training"><i class="fa-sharp fa-solid fa-book"></i> TRAINING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services"><i class="fa-solid fa-sack-dollar"></i> SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer"><i class="fa-regular fa-thumbs-up"></i> CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+  </div>
 
-    <article>
-            <h2>Bodybuilding</h2>
-            <p>Schwarzenegger began lifting weights at age 15 and won the Mr. Universe title aged 20, and subsequently the Mr. Olympia title seven times. He is widely regarded as one of the greatest bodybuilders of all time, and has written many books and articles about it. The Arnold Sports Festival, considered the second-most important bodybuilding event after Mr. Olympia, is named after him. He appeared in the bodybuilding documentary Pumping Iron (1977). </p>
-    </article>
+
+
+<!---1HOMEPage-->
+<div id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="home-title">STUDENT OF CYBER SECURITY AND CYBER CRIME PREVENTING</p>
+                <p class="home-title">Harri Silvola</p>
+                <p>This is my personal profile site. 
+                  I have cathered my personal details over the years and collected them on to this website. 
+                  In this site I will talk about my work personal profile, experties and experiences. 
+                  At training section I will talk about my training and upcoming challenges.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="head.webp" class="img-fluid" alt="Own identity">
+            </div>
+        </div>
+    </div>
 
 
 
-    <footer>
-            <h2>I'll be back!</h2>
-    </footer>
+
+    <img src="muoto_2.png" class="bottom-img" alt="colorchanger">
+  </div>
+
+
+<br><br>
+<!---2Profilepage-->
+
+
+<div id="profile">    
+    <div class="container text-center">
+      <h1 class="title">WORK PROGRESS</h1>
+        <div class="row text-center">            
+            <div class="col-md-4 profile">
+                <img src="touch-7756179_960_720.png" class="profile-img" alt="Fingerprint">
+                <br>
+                <h4><i class="fa-solid fa-person-hiking"></i> Personal Profile</h4>
+                <p>Over 10 years of experience in the security industry. 
+                  Seen and done many security tasks for companies and the state. 
+                  Professional experience in various fields such as customer service, sales and marketing, communication, 
+                  security, design and project work, and cyber security.</p>
+            </div>
+            <div class="col-md-4 profile">
+              <img src="binary-7745893_960_720.jpg" class="profile-img" alt="Security work">
+              <br>
+              <h4><i class="fa-solid fa-person-dots-from-line"></i> Areas of Experties</h4>
+                <ul>
+                  <li>Legality in the area of crime and security.</li>
+                  <li>Safety planning, risk management and rescue.</li>
+                  <li>Operations, management, special situations and analytical thinking.</li>
+                  <li>Surveillance equipment, software, camera placement and computers.</li>
+                  <li>Comprehensive understanding of digitality, electronics and mechanic.</li>
+                </ul>
+              </div>
+          <div class="col-md-4 profile">
+            <img src="job-5359923_960_720.png" class="profile-img" alt="Work experience">
+            <br>
+            <h4><i class="fa-solid fa-person-chalkboard"></i> Work Experience</h4>
+              <ul>
+                <li>Survailance of imports and exports of traffic	3,5 years</li>
+                <li>Investigation and law enforcement	3,5 years</li>
+                <li>Crime prevention 10 years</li>
+                <li>Analytical projects	5 years</li>
+                <li>Correctional services 5 years</li>
+                <li>Security and safety 2 years</li>
+                <li>Business in a family business</li>
+              </ul>
+        </div>
+        </div>
+              <button type="button" class="btn-primary">Ask More 
+                <i class="fa-solid fa-handshake-angle"></i>
+            </button>
+    </div>
+  </div>
+
+<br><br><br>
+
+<!---carousel2-->
+
+
+<div id="carousel2">
+  <div id="carouselExampleSlidesOnly2" class="carousel slide2" data-bs-ride="carousel2">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+    <img src="Technology2.webp" class="d-block w-100" alt="working">
+  </div>
+  <div class="carousel-item">
+    <img src="security_person.jpg" class="d-block w-100" alt="security_person">
+  </div>
+  <div class="carousel-item">
+    <img src="devices.jpg" class="d-block w-100" alt="protect">
+  </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<br><br>
+
+<!---3Trainingpage-->
+
+<div id="training">    
+  <div class="container text-center">
+    <h1 class="title">EDUCATION</h1>
+      <div class="row text-center">            
+          <div class="col-md-4 training">
+              <img src="education.png" class="training-img" alt="edukation">
+              <br>
+              <h4><i class="fa-solid fa-graduation-cap"></i> Education History</h4>
+                <ul>
+                  <li><i class="fa-solid fa-battery-quarter"></i> Laurea University of Applied Sciences, Bachelor's degree, Information Technology, Cyber security</li>
+                  <li><i class="fa-solid fa-battery-three-quarters"></i> Police University College, Bachelor's degree, Specialzation studies for cybercrime prevention</li>
+                  <li><i class="fa-solid fa-battery-full"></i> Laurea University of Applied Sciences, Bachelor's degree, Correctional Services</li>
+                  <li><i class="fa-solid fa-battery-full"></i> Tulli Finland, Law Enforcement Investigatin and Interviewing</li>
+                  <li><i class="fa-solid fa-battery-full"></i> The Trainging Institute for Prison and Probation Services</li>
+                </ul>
+          </div>
+          <div class="col-md-4 training">
+            <img src="skills_3.png" class="training-img" alt="skills">
+            <br>
+            <h4><i class="fa-solid fa-chess-knight"></i> Other Skills</h4>
+              <ul>
+                <li>Information and communication, as well as current applications</li>
+                <li>Innovative thinking to implement new solutions</li>
+                <li>Operations, management, special situations.</li>
+                <li>Cyber security, cybercrime prevention</li>
+                <li>Multi-agency cooperation</li>
+                <li>Business and property security, personal safety, fire and rescue, and social and health safety</li>
+              </ul>
+            </div>
+        <div class="col-md-4 training">
+          <img src="references.png" class="training-img" alt="references">
+          <br>
+          <h4><i class="fa-solid fa-hand-holding-dollar"></i> References</h4>
+            <ul>
+              <li>2021 - Thesis research on the effects of the covid-19 pandemic on the security of a closed prison</li>
+              <li>2020 - National safety audit criteria katakri</li>
+              <li>2020 - Risk planning and security management</li>
+              <li>2020 - Rescue planning</li>
+            </ul>
+      </div>
+      </div>
+      <button type="button" class="btn-primary">Ask More 
+        <i class="fa-solid fa-handshake-angle"></i>
+    </button>
+  </div>
+</div>
+
+<br><br>
+
+<img src="technical.webp" class="center-img" alt="technical">
+
+<br><br>
+<!---4Servicespage-->
+
+
+<div id="services">
+  <div class="container">
+    <h1 class="title text-center">WHY TO CONTACT ?</h1>
+    <br>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="Cyber_crime.png" class="img-fluid" alt="IT-work">
+        </div>
+        <div class="col-md-6 services">
+            <p class="services-title">What do I offer <i class="fa-brands fa-docker"></i></p>
+              <ul>
+                <li>Business first thinking <i class="fa-solid fa-money-bill-trend-up"></i></li>
+                <li>Cyber crime preventing <i class="fa-solid fa-virus-slash"></i></li>
+                <li>Cyber security <i class="fa-solid fa-laptop"></i><i class="fa-solid fa-shield"></i> </li>
+                <li>Website planning and coding <i class="fa-brands fa-python"></i></li>
+                <li>Investigation manyally and online <i class="fa-solid fa-user-shield"></i></li>
+                <li>Forenscik analysing <i class="fa-solid fa-microchip"></i></li>
+              </ul>
+              <button type="button" class="btn-primary">Ask More 
+                <i class="fa-solid fa-handshake-angle"></i>
+            </button>
+        </div>
+      </div>
+  </div>
+</div>
+
+<br><br>
+
+<img src="Contact.jpg" class="last-img" alt="Contact">
+<br><br>
+<!---5MAKECONNECTpage-->
+
+<div id="Contact-me">
+  <div class="container text-center">
+  <p>TO KEEP IN TOUCH</p>
+  <div class="social-icons">
+    <a href="https://www.facebook.com"><img src="facebook.png" alt="facebook"></a>
+    <a href="https://www.instagram.com"><img src="instagram-6338401_960_720.webp" alt="instagram"></a>
+    <a href="https://www.linkedin.com"><img src="Linkedin1.png" alt="LinkedIn"></a>
+    <a href="https://www.google.com"><img src="email_2.png" alt="email"></a>
+    <a href="https://www.google.com/search?client=firefox-b-d&q=Turvalaaksonkuja%2C+01740+Vantaa"><img src="Address.png" alt="address"></a>
+    <a href="https://en.wikipedia.org/wiki/Telephone_number"><img src="phone-1439842_960_720.png" alt="phonenumber"></a>
+  </div>
+  <br><br><br>
+  <p>REMEMBER TO PRESS THE LIKE BUTTON</p>
+  <div class="social-icons">
+    <a href="https://www.facebook.com"><img src="Big_likebutton.png" alt="likebutton"></a>
+  </div>
+</div>
+</div>
+
+<br><br>
+
+<!---footer-->
+  <div id="footer">
+    <img src="muoto_4.png" class="footer-img" alt="colorchangeimage">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+              <img src="kuva3.png" alt="Logo">
+              <p>To make the world safer place get in contact and remember to push the like button.</p>
+          </div>
+          <div class="col-md-4 footer-box">
+              <p><b>CONTACT ME</b></p>
+              <p><i class="fa-solid fa-phone"></i>+358 0400 123 123</p>
+              <p><i class="fa-solid fa-at"></i>turva.tarvo@turvassa.fi</p>
+              <p><i class="fa-solid fa-map-location-dot"></i>Turvalaaksonkuja, 01740 Vantaa</p>
+          </div>
+
+<!---Contactform-->
+
+            <div class="col-md-4 footer-box">
+              <form>
+                <p><b>WRITE A COMMENT</b></p>
+                    <div class="form group">
+                      <label for="w3review">Email:</label>
+                      <input type="email" class="form control" placeholder="Your Email" required="required">
+                    </div>
+                    <div class="form group">
+                      <label>Message:</label>
+                      <textarea id="w3review" name="message" rows="5" placeholder="Your Message" required="required"></textarea>
+                    </div>
+                    <Div>
+                      <button type="button" class="btn btn-primary">Submit <i class="fa-regular fa-thumbs-up"></i></button>
+                    </div>
+              </form>
+            </div>
+        </div>
+      </div>
+          <hr>
+          <p class="copyright">Copyright @Silvola HS</p>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 </body>
 </html>
