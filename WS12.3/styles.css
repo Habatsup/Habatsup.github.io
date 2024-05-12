@@ -7,14 +7,11 @@
 body {
     font-family: sans-serif;   
 }
-/*--------- carousel------------*/
-
-.carousel1 {
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+/*----------carousel-----------*/
+#carousel1 {
+    padding: 1em;
 }
+
 /*---------Navigate------------*/
 #nav-bar {
     position: sticky;
@@ -50,6 +47,15 @@ body {
     outline: none !important
 }
 
+li a:hover {
+    background-color: rgb(43, 91, 180);
+    color: white;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+
+}
 
 /*--------------------1 HOME page-----------------*/
 #home {
@@ -68,8 +74,6 @@ body {
     color: white;
     text-decoration: none;
 }
-
-
 
 .bottom-img {
     width: 100%;
@@ -124,9 +128,17 @@ body {
     color: white;
 }
 
-.middle-img {
-    width: 100%;
+button :hover {
+    background-color: rgb(43, 91, 180);
+    color: white;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+
 }
+/*------------------------ Carousel2---------------------------------*/
+
 
 /*------------------------ 3 Traingin page---------------------------------*/
 #training {
@@ -155,6 +167,10 @@ body {
     border-radius: 20px;
     background-image: linear-gradient(to right, #90acfa, #220b85);
     color: white;
+}
+
+.center-img {
+    width: 100%;
 }
 /*---------------------------4 services page-------------------------------------*/
 #services{
@@ -187,7 +203,7 @@ body {
     color: white;
 }
 
-.center-img {
+.last-img {
     width: 100%;
 }
 
@@ -243,13 +259,29 @@ body {
     background-image: linear-gradient(to right, #90acfa, #220b85);
 }
 
+/*---------------------Contact form--------*/
+
 .footer-box .form-control {
     box-shadow: none !important;
     border: none;
     border right: 0;
     margin-top: 25px;
     max-width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
 }
+
+form {
+    width: 40%;
+    margin: auto;
+}
+
+.contact-form input:hover,
+.contact-form texarea:hover {
+    border:1px solid #36c3d6
+}
+
 
 .footer-box .btn-primary {
     box-shadow: none !important;
@@ -260,7 +292,6 @@ body {
 }
 hr { 
     background-color: white;
-
 }
 
 .copyright {
