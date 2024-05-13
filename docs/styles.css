@@ -3,14 +3,12 @@
     padding:0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
+    
 }
 body {
     font-family: sans-serif;   
 }
-/*----------carousel-----------*/
-#carousel1 {
-    padding: 1em;
-}
+
 
 /*---------Navigate------------*/
 #nav-bar {
@@ -33,10 +31,10 @@ body {
     padding:  0 10px;
 }
 .navbar-nav li a {
-    color: white !important;
     font-weight: 600;
-    float: right;
     text-align: left;
+    color: white !important;
+    float: right;
 }
 .fa-bars{
     color: white;
@@ -97,27 +95,15 @@ li a:hover {
     margin-top: 25px;
     text-transform: uppercase;
 }
-.title::before {
-    content:'';
-    background: #171998;
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(63px)
+.title{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #90acfa, #220b85);
+    color: white;
 }
-.title::after {
-    content:'';
-    background: #171998;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px)
-}
+
 #profile .btn-primary
 {
     box-shadow: none;
@@ -137,8 +123,6 @@ button :hover {
     border-radius: 20px;
 
 }
-/*------------------------ Carousel2---------------------------------*/
-
 
 /*------------------------ 3 Traingin page---------------------------------*/
 #training {
@@ -172,7 +156,7 @@ button :hover {
 .center-img {
     width: 100%;
 }
-/*---------------------------4 services page-------------------------------------*/
+/*---------4 services page-------------------------------------*/
 #services{
     background-color: white;
     padding-bottom: 50px;
@@ -193,15 +177,6 @@ button :hover {
     margin-left: 20px;
 }
 
-#services .btn-primary
-{
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #90acfa, #220b85);
-    color: white;
-}
 
 .last-img {
     width: 100%;
@@ -227,7 +202,7 @@ button :hover {
 
 }
 
-/*---------------6 footer Section---------------------------*/
+/*---------------6 footer---------------------------*/
 
 #footer {
     background-image: linear-gradient(to right, #90acfa, #220b85);
@@ -288,12 +263,5 @@ form {
     margin-top: 5px;
     background-image: linear-gradient(to right, #90acfa, #220b85);
 }
-hr { 
-    background-color: white;
-}
 
-.copyright {
-    margin-bottom: 0%;
-    padding-bottom: 20px;
-    text-align: center;
-}
+
