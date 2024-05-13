@@ -1,7 +1,7 @@
 * {
-    margin:0;
-    padding:0;
     font-family: 'poppins', sans-serif;
+    padding:0;
+    margin:0;
     box-sizing: border-box;
 }
 body {
@@ -10,18 +10,20 @@ body {
 
 #nav-bar {
     position: sticky;
-    top:0;
     Z-index: 10;
+    top:0;
+
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #90acfa, #220b85);
     padding: 0 !important;
+    background-image: linear-gradient(to right, #90acfa, #220b85);
+
 }
 
 .navbar-brand img{
-    height: 70px;
     padding-left: 20px;
+    height: 70px;
 }
 
 .navbar-nav li {
@@ -30,32 +32,31 @@ body {
 .navbar-nav li a {
     font-weight: 600;
     text-align: left;
-    color: white !important;
     float: right;
+    color: white !important;
+
 }
 .fa-bars{
     color: white;
     font-size: 30px !important;
-
-}
-.navbar-toggler {
-    outline: none !important;
 }
 
 li a:hover {
     background-color: rgb(43, 91, 180);
     color: white;
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
     border-radius: 20px;
+    padding: 8px 25px;
+    box-shadow: none;
+    border: none;
+
 
 }
 
 #home {
-    background-image: linear-gradient(to right, #90acfa, #220b85);
     color: white;
     padding-top: 5% ;
+    background-image: linear-gradient(to right, #90acfa, #220b85);
+
 }
 
 .home-title {
