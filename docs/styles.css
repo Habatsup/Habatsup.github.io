@@ -3,14 +3,11 @@
     padding:0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
-    
 }
 body {
     font-family: sans-serif;   
 }
 
-
-/*---------Navigate------------*/
 #nav-bar {
     position: sticky;
     top:0;
@@ -42,7 +39,7 @@ body {
 
 }
 .navbar-toggler {
-    outline: none !important
+    outline: none !important;
 }
 
 li a:hover {
@@ -55,7 +52,6 @@ li a:hover {
 
 }
 
-/*--------------------1 HOME page-----------------*/
 #home {
     background-image: linear-gradient(to right, #90acfa, #220b85);
     color: white;
@@ -77,7 +73,7 @@ li a:hover {
     width: 100%;
 
 }
-/*------------------------ 2 Profile page---------------------------------*/
+
 #profile {
     padding: 80px 0;
 }
@@ -124,7 +120,7 @@ button :hover {
 
 }
 
-/*------------------------ 3 Traingin page---------------------------------*/
+
 #training {
     padding: 80px 0;
 }
@@ -156,7 +152,7 @@ button :hover {
 .center-img {
     width: 100%;
 }
-/*---------4 services page-------------------------------------*/
+
 #services{
     background-color: white;
     padding-bottom: 50px;
@@ -182,8 +178,6 @@ button :hover {
     width: 100%;
 }
 
-/*----------5 Make connect page----------------*/
-
 #Contact-me {
     background: white;
     padding: 100px;
@@ -199,10 +193,8 @@ button :hover {
 }
 .social-icons a:hover img{
     transform: translateY(-10px);
-
 }
 
-/*---------------6 footer---------------------------*/
 
 #footer {
     background-image: linear-gradient(to right, #90acfa, #220b85);
@@ -234,8 +226,6 @@ button :hover {
     background-image: linear-gradient(to right, #90acfa, #220b85);
 }
 
-/*---------------------Contact form--------*/
-
 .footer-box .form-control {
     box-shadow: none !important;
     border: none;
@@ -263,5 +253,3 @@ form {
     margin-top: 5px;
     background-image: linear-gradient(to right, #90acfa, #220b85);
 }
-
-
