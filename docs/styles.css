@@ -52,6 +52,26 @@ li a:hover {
     border: none;
 }
 
+#carousel1 {
+    background-image: linear-gradient(to right, #90acfa, #220b85);
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 1px;
+}
+
+.carousel-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 1px;
+    color: white;
+    text-align: center;
+  }
+
 #home {
     color: white;
     padding-top: 5% ;
@@ -100,6 +120,15 @@ li a:hover {
     color: white;
 }
 
+#profile ul {
+    margin-left: 20px;
+}
+
+#profile ul li {
+    margin: 10px 0;
+    text-align: left;
+}
+
 #profile .btn-primary
 {
     box-shadow: none;
@@ -121,6 +150,8 @@ button :hover {
 
 #carousel2 {
     padding: 80px 0;
+    margin: 0 auto;
+    width: 80%;
 }
 
 
@@ -142,8 +173,16 @@ button :hover {
     text-transform: uppercase;
 }
 
-#training .btn-primary
-{
+#training ul {
+    margin-left: 20px;
+}
+
+#training ul li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#training .btn-primary {
     box-shadow: none;
     padding: 8px 25px;
     border: none;
@@ -153,7 +192,8 @@ button :hover {
 }
 
 .center-img {
-    padding: 80px 0;
+    padding: 150px 150px 150px 150px;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -179,7 +219,8 @@ button :hover {
 }
 
 .last-img {
-    padding: 80px 0;
+    padding: 150px 150px 150px 150px;
+    margin: 0 auto;
     width: 100%;
 }
 
